@@ -1,10 +1,10 @@
 // A simple primes calculator
 #include <iostream>
 
-int main() {
+int main(int argc, char* argv[]) {
     
-    for (int i=2; i<100; i++) {
-        int j = 2;
+    for (int i=2; i<argc; i++) {
+        int j = std::atoi(argv[i]);
         bool flag = true;
         while (j*j<i) {
             if (i%j) {

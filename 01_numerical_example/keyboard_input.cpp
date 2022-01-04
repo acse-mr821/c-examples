@@ -2,8 +2,13 @@
 #include <iostream>
 
 int main() {
-    
-    for (int i=2; i<100; i++) {
+
+    int number;
+
+    std::cout << "How many numbers to calculate?\n";
+    std::cin >> number;
+
+    for (int i=2; i<number; i++) {
         int j = 2;
         bool flag = true;
         while (j*j<i) {
