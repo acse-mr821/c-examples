@@ -22,5 +22,5 @@ void swap(int a, int b) {
     b = c; // assigning value of b to c, which is the original a
 
     // printf("\nAfter swapping, the values are: a = %d, b = %d \n", a, b);
-    std::cout<<"\nAfter swapping, the values are: \n"<<"a = "<<a<<"\t b = "<<b << std::endl;
+    std::cout << "\nAfter swapping, the values are: \n" << "a = " << a << "\t b = " << b << std::endl;
 }
